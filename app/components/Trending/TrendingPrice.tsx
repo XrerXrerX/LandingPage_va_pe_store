@@ -32,7 +32,7 @@ export default function TrendingPrice({
         transition={{ delay: 0.7 }}
       >
         <motion.button
-          className="bg-pink-500 rounded-lg text-white text-sm md:text-lg px-[3px] sm:px-2 lg:px-5 xl:px-8 py-1 sm:py-2 lg:py-2 xl:py-3 ml-0  sm:ml-0 xl:ml-20 relative z-40"
+          className="bg-pink-500 rounded-lg text-white text-sm md:text-lg px-[8px] sm:px-2 lg:px-5 xl:px-8 py-1 sm:py-2 lg:py-2 xl:py-3 ml-0  sm:ml-0 xl:ml-20 relative z-40"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
