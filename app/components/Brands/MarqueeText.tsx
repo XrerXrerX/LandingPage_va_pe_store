@@ -13,7 +13,7 @@ export default function MarqueeText() {
         {repeatedText.split("•").map((segment, index) => (
           <span
             key={`main-${index}`}
-            className="text-pink-500 text-4xl font-extrabold"
+            className="text-pink-500 text-2xl md:text-4xl font-extrabold"
           >
             {segment}
             <span className="text-black">•</span>
@@ -26,7 +26,7 @@ export default function MarqueeText() {
         {repeatedText.split("•").map((segment, index) => (
           <span
             key={`duplicate-${index}`}
-            className="text-pink-500 text-4xl font-extrabold"
+            className="text-pink-500 text-2xl md:text-4xl font-extrabold"
           >
             <span className="text-black">•</span>
 
