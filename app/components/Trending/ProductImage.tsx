@@ -8,7 +8,7 @@ export default function ProductImage() {
   return (
     <div className="relative">
       <motion.div
-        className="w-60 lg:w-80 h-60 lg:h-80 ml-[-80px] md:ml-0 rounded-full bg-gray-600/20 relative"
+        className="w-60 lg:w-80 h-60 lg:h-80 ml-[190px] sm:ml-[-80px] bottom-[200px] sm:bottom-0 md:ml-0 rounded-full bg-gray-600/20 relative"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}

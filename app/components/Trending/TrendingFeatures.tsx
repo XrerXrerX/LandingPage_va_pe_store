@@ -10,7 +10,7 @@ interface TrendingFeaturesProps {
 export default function TrendingFeatures({ features }: TrendingFeaturesProps) {
   return (
     <motion.div
-      className="flex items-center gap-6 mb-8 border-b-[1px] border-pink-400 "
+      className="hidden items-center gap-6 mb-8 border-b-[1px] border-pink-400 z-50 relative sm:flex  "
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.6 }}

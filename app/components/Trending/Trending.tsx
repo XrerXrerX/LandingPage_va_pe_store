@@ -14,7 +14,7 @@ export default function Trending() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="w-full lg:w-11/12 2xl:w-3/4 mx-auto px-4">
-        <div className="flex items-center justify-around">
+        <div className="block sm:flex items-center justify-around">
           <div className="max-w-2xl">
             <motion.h2
               className="2xl:xl:text-4xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-2xl xs:text-xl font-extrabold mb-4"
@@ -48,7 +48,7 @@ export default function Trending() {
             </motion.p>
 
             <motion.p
-              className="text-xs md:text-sm text-gray-500 mb-2"
+              className="text-xs md:text-sm text-gray-500 mb-2 hidden sm:flex"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
