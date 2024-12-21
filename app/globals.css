@@ -1,0 +1,80 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --font-kanit: "Kanit", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  /* Menghindari scroll horizontal */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  margin: 0;
+  min-height: 100vh;
+  /* overflow-y and overflow-x are not set for larger screens */
+}
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb));
+    margin: 0;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
+}
+
+.bg-custom {
+  min-height: 100vh;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Menyembunyikan scrollbar */
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+h3 {
+  font-family: var(--font-kanit);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 60s linear infinite;
+}
+
+.animate-marquee2 {
+  animation: marquee 60s linear infinite;
+  animation-delay: -30s;
+}
