@@ -15,7 +15,7 @@ export default function TrendingPrice({
 }: TrendingPriceProps) {
   return (
     <motion.div
-      className="flex items-center gap-2 mb-6"
+      className="flex items-center gap-2 mb-6 top-6 sm:top-0 relative"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
