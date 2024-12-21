@@ -82,7 +82,7 @@ h3 {
 
 .marquee-content {
   display: inline-flex;
-  animation: marquee 40s linear infinite; /* Sesuaikan durasi sesuai kebutuhan */
+  animation: marquee 70s linear infinite; /* Sesuaikan durasi sesuai kebutuhan */
 }
 
 .marquee-content span {
