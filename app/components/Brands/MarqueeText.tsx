@@ -22,7 +22,7 @@ export default function MarqueeText() {
       </div>
 
       {/* Duplikasi konten untuk looping mulus */}
-      <div className="marquee-content">
+      <div className="marquee-content my-4">
         {repeatedText.split("•").map((segment, index) => (
           <span
             key={`duplicate-${index}`}
