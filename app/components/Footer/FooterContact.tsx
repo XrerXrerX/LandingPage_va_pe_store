@@ -30,7 +30,7 @@ export default function FooterContact({ title, links }: FooterContactProps) {
           >
             <Link
               href={link.href}
-              className="hover:text-pink-500 transition-colors flex items-center gap-2 border-b-[1px] border-pink-400"
+              className="hover:text-pink-500 transition-colors flex items-center gap-2 "
             >
               {link.label}
             </Link>

@@ -26,7 +26,7 @@ export default function FooterLinks({ title, links }: FooterLinksProps) {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="border-b-[1px] border-pink-400  text-xxs lg:text-xl"
+            className="  text-xxs lg:text-xl"
           >
             <Link
               href={link.href}
