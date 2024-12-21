@@ -35,6 +35,9 @@ body {
     overflow-x: hidden;
   }
 }
+.frontall {
+  z-index: 99;
+}
 
 @layer utilities {
   .pointer-events-none {
@@ -70,11 +73,18 @@ h3 {
   }
 }
 
-.animate-marquee {
-  animation: marquee 60s linear infinite;
+.marquee-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
 }
 
-.animate-marquee2 {
-  animation: marquee 60s linear infinite;
-  animation-delay: -30s;
+.marquee-content {
+  display: inline-flex;
+  animation: marquee 40s linear infinite; /* Sesuaikan durasi sesuai kebutuhan */
+}
+
+.marquee-content span {
+  margin-right: 0.15rem; /* Jarak antar teks */
 }

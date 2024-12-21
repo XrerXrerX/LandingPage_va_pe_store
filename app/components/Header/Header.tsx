@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <motion.header
-      className="bg-white shadow-md sticky top-0 z-50 border-b-4 border-pink-500 "
+      className="frontall bg-white shadow-md sticky top-0 z-50 border-b-4 border-pink-500 "
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
