@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <motion.div
-      className="relative h-[600px] sm:h-[775px] text-white flex items-center justify-center"
+      className="relative h-[450px] sm:h-[775px] text-white flex items-center justify-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
