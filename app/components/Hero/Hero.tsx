@@ -25,7 +25,7 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          WELCOME TO <span className="text-pink-500">THISVAPESTORE </span>
+          WELCOME TO <span className="text-pink-500">LIGAL VAPE </span>
         </motion.h1>
         <motion.p
           className="2xl:xl:text-4xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl xs:text-xl font-bold"
