@@ -122,7 +122,12 @@ export default function Footer() {
       <div className="w-11/12 mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
           <span className="text-gray-400 text-sm">Powered by : </span>
-          <div className="flex items-center space-x-2">
+          <a
+            href="https://lintasinovasiglobal.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+          >
             <img
               src="/logo-ligal.png"
               alt="PT. Lintas Inovasi Global"
@@ -131,7 +136,7 @@ export default function Footer() {
             <span className="text-gray-300 text-sm font-medium">
               PT. Lintas Inovasi Global
             </span>
-          </div>
+          </a>
         </div>
       </div>
       <div className="mt-4 border-t border-gray-700 py-4">
