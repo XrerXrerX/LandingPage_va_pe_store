@@ -11,7 +11,7 @@ interface FooterLinksProps {
 
 export default function FooterLinks({ title, links }: FooterLinksProps) {
   return (
-    <div className="hidden sm:block">
+    <div>
       <motion.h3
         className="text-pink-500 font-bold text-sm lg:text-xl mb-4 "
         initial={{ opacity: 0, y: 20 }}
